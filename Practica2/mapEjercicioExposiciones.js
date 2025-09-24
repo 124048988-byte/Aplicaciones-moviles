@@ -7,7 +7,7 @@ const productos =
 
 ];
 
-const nombreProductos = productos
+const nombres = productos
 .filter(p=> p.precio > 1000) //Esto sirve para filtrar a los que valen más de 1000
 .map(p => p.nombre);  //De esos, saca solo el nombre
-console.log(nombreProductos);
+console.log(nombres);

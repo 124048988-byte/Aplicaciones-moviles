@@ -79,4 +79,3 @@ const styles = StyleSheet.create({ //Esto es un objeto Estilos
   ,
 
 });
-

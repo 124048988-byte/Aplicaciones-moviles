@@ -1,11 +1,11 @@
 import { Text, StyleSheet, View } from 'react-native'
 
 
-export default function FlatListScreen() {
+export default function BottomSheetScreen() {
   
     return (
       <View>
-        <Text>Proximamente 6</Text>
+        <Text>Proximamente 8</Text>
       </View>
     )
  

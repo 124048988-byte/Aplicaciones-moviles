@@ -12,7 +12,7 @@ import { ImageBackground } from 'react-native-web'
 
 export default function MenuScreenExamen()  { /* Esta linea era para crear componentes, pero ahora creamos una funcion */
  
-    const [screen, setScreen] = useState('menu');     /* lo del "menu" significa que por default siempre me abra la pantalla "Menu"  */
+    const [screen, setScreen] = useState('menu');     
     switch(screen)
     {
         
@@ -25,7 +25,7 @@ export default function MenuScreenExamen()  { /* Esta linea era para crear compo
             default:
                     return (
                         <View style={styles.EstiloBotones}>
-                            <Text>Menu de practicas</Text>
+                            <Text>Mi galeria</Text>
                             <Button color= "orange" title='Pract:Screen Principal' onPress={()=> setScreen('PrincipalScreenExamen')}/>
                         </View>
                     )

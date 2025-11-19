@@ -1,0 +1,14 @@
+{
+  "name": "navigation_3er_parcial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

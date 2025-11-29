@@ -12,6 +12,7 @@ import Settings from './screens/settings';
 const Stack = createNativeStackNavigator();
 
 
+
 export default function App() {
   return (
     <NavigationContainer>
